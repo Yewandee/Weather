@@ -67,27 +67,7 @@ const Welcome = () => {
           </>
         )}
       </div>
-      <div className="weatherContainer container">
-        <Search onSearchChange={handleOnSearchChange} />
-
-        <div className="Welcome">
-          <h1>Welcome to Weather Forecast App!</h1>
-          <h3>Search for cities around you!</h3>
-        </div>
-
-        {/* <div className='top'>
-                <p>{currentDateTime.toLocaleString()}</p>
-               
-            </div> */}
-
-
-        {currentWeather && forecast && (
-          <>
-            <CurrentWeather data={currentWeather} />
-            <Forecast data={forecast} />
-          </>
-        )}
-      </div>
+      
     </section>
   );
 };
